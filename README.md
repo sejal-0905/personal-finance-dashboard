@@ -1,34 +1,97 @@
 # 📊 Personal & Family Finance Dashboard
 
-A simple, fast, and privacy-focused personal finance dashboard built to help track income, savings, and expenses easily on both desktop and mobile devices.
+<p align="center">
+  <strong>A Simple, Privacy-First Personal Finance Tracker</strong>
+</p>
 
-Designed specifically with simplicity in mind, using Indian Rupees (₹) as the default currency and local storage for complete data privacy.
+<p align="center">
+  <img src="https://img.shields.io/badge/React-Frontend-61DAFB?logo=react&logoColor=black" />
+  <img src="https://img.shields.io/badge/Vite-Build%20Tool-646CFF?logo=vite&logoColor=white" />
+  <img src="https://img.shields.io/badge/Tailwind%20CSS-Styling-06B6D4?logo=tailwindcss&logoColor=white" />
+  <img src="https://img.shields.io/badge/Vercel-Deployed-black?logo=vercel" />
+</p>
+
+A simple, fast, and privacy-focused personal finance dashboard designed to make tracking income, savings, and expenses effortless across desktop and mobile devices.
+
+Built with simplicity in mind, the dashboard uses **Indian Rupees (₹)** as its default currency and browser `localStorage` to keep financial data stored locally on the user's device.
 
 ---
 
 ## ✨ Features
 
-- **Income & Expense Tracking:** Add, view, and organize transactions across categories (Salary, Investments, Savings, Food, Housing, Utilities, Entertainment, Transport, and Other).
-- **Interactive Visualizations:** Clean breakdown of expenses and financial distribution powered by Recharts (Pie & Bar charts).
-- **Monthly Filtering:** Filter transactions by specific months to monitor spending habits over time.
-- **Privacy-First (100% Local):** All financial data is saved directly in the browser's `localStorage`—no external database or server stores your private financial information.
-- **Mobile Optimized:** Works smoothly on mobile web browsers and can be added directly to any phone's Home Screen like a native application.
-
----
+- 💰 **Income & Expense Tracking** — Add, view, and organise transactions across categories such as Salary, Investments, Savings, Food, Housing, Utilities, Entertainment, Transport, and Other.
+- 📊 **Interactive Visualisations** — Understand spending patterns and financial distribution through interactive pie and bar charts powered by Recharts.
+- 📅 **Monthly Filtering** — Filter transactions by month to review spending habits and track finances over time.
+- 🔒 **Privacy-First Storage** — Financial data is stored directly in the browser's `localStorage`, without an external database.
+- 📱 **Mobile-Friendly Design** — Responsive interface optimised for desktop and mobile browsers.
+- 🏠 **Home Screen Access** — Can be added to a phone's Home Screen for an app-like experience.
 
 ## 🛠️ Tech Stack
 
-- **Framework:** React + Vite
-- **Styling:** Tailwind CSS
-- **Charts:** Recharts
-- **Hosting & Deployment:** Vercel
+| Technology | Purpose |
+|---|---|
+| **React** | Frontend library and UI components |
+| **Vite** | Development server and build tool |
+| **Tailwind CSS** | Responsive styling and UI design |
+| **Recharts** | Interactive pie and bar charts |
+| **Browser localStorage** | Local transaction data persistence |
+| **Vercel** | Hosting and deployment |
+
+## 🚀 Getting Started
+
+Follow these steps to run the project locally.
+
+### Prerequisites
+
+- Node.js
+- npm
+
+### Installation
+
+**1. Clone the repository**
+
+```bash
+git clone https://github.com/sejal-0905/personal-finance-dashboard.git
+```
+
+**2. Navigate to the project directory**
+
+```bash
+cd personal-finance-dashboard
+```
+
+**3. Install dependencies**
+
+```bash
+npm install
+```
+
+**4. Start the development server**
+
+```bash
+npm run dev
+```
+
+Open the local URL displayed in your terminal to access the dashboard.
+
+## 🔐 Privacy & Data Storage
+
+This project follows a local-first approach to personal finance management.
+
+- Transaction data is stored in the browser's `localStorage`.
+- No external database is used to store financial records.
+- Data remains within the browser on the device where it was entered.
+- Clearing browser storage or switching devices may result in data loss.
+
+## 🌐 Deployment
+
+The application is hosted on **Vercel**.
+
+- **Live Demo:** [Add your deployed application URL here]
+- **Source Code:** [GitHub Repository](https://github.com/sejal-0905/personal-finance-dashboard)
 
 ---
 
-## 🚀 Getting Started (Local Development)
-
-If you want to run this project locally on your machine:
-
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/sejal-0905/personal-finance-dashboard.git](https://github.com/sejal-0905/personal-finance-dashboard.git)
+<p align="center">
+  <strong>Built with ❤️ to make personal finance tracking simpler.</strong>
+</p>
