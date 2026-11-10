@@ -83,7 +83,7 @@ This project follows a local-first approach to personal finance management.
 - Data remains within the browser on the device where it was entered.
 - Clearing browser storage or switching devices may result in data loss.
 
-
+---
 
 <p align="center">
   <strong>Built with ❤️ to make personal finance tracking simpler.</strong>
